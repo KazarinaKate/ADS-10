@@ -39,7 +39,7 @@ class Tree {
       Permutation(root->leaf[l], symbol);
   }
 
-  public:
+ public:
     std::string operator[](int l) const {
       if (l >= prm.size())
         return "";
