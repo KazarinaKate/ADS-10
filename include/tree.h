@@ -38,7 +38,7 @@ class Tree {
     for (size_t l = 0; l < root->leaf.size(); l++)
       Permutation(root->leaf[l], symbol);
   }
- 
+
   public:
     std::string operator[](int l) const {
       if (l >= prm.size())
@@ -51,6 +51,5 @@ class Tree {
       constructTree(root, value);
       Permutation(root);
     }
-}
 };
 #endif  // INCLUDE_TREE_H_
